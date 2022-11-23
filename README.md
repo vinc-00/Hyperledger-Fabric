@@ -71,7 +71,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - php last version
 - ssh2 library for php available at: https://www.php.net/manual/en/book.ssh2.php
 
-#installation
+## installation
 
 - clone the repo: git clone https://github.com/vinc-00/Hyperledger-Fabric.git
 - go to the Hyperledger_Farbric directory: cd Hyperledger_Farbic

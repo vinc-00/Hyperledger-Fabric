@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Prerequisites 
+
+- composer tool
+- php last version
+- ssh2 library for php available at: https://www.php.net/manual/en/book.ssh2.php
+
+#installation
+
+- clone the repo: git clone https://github.com/vinc-00/Hyperledger-Fabric.git
+- go to the Hyperledger_Farbric directory: cd Hyperledger_Farbic
+- composer install
+- cp .env.example .env
+- set up .env file
+- php artisan key:generate
+- php artisan storage:link
+- php artisan serve --port [HERE_TYPE_THE_PORT_NUMBER_WHERE_THE_WEB_APPLICATION_WILL_BE_STARTED]
+- Go into your browser and search: localhost:[WEB_APPLICATION_PORT_NUMBER]
+
+

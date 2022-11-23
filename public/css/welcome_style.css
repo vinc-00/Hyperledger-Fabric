@@ -1,0 +1,123 @@
+h1 {
+    text-align: center;
+    color: darkmagenta;
+}
+
+body > p {
+    color: black;
+    text-align: center;
+    font-size: 115%;
+    margin-top: 1.0cm;
+}
+
+
+hr {
+    color: darkmagenta;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 125%;
+    color: black;
+    margin-right: 0.8cm;
+}
+
+
+form input[type="text"], input[type="number"], input[type="password"] {
+    width: 40%;
+    background: rgb(220, 220, 220);
+    font-size: 135%;
+    resize: horizontal;
+    text-align: center;
+    border-style: double;
+    border-color: darkgray;
+}
+
+
+form input[type="text"]:hover, input[type="number"]:hover, input[type="password"]:hover{
+    width: 40%;
+    background: rgb(220, 220, 220);
+    font-size: 135%;
+    resize: horizontal;
+    text-align: center;
+    border-style: double;
+    background: rgb(215, 215, 215);
+    border-color: darkgray;
+}
+
+form input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus{
+    width: 40%;
+    background: rgb(200, 200, 200);
+    font-size: 135%;
+    resize: horizontal;
+    text-align: center;
+    padding: 2px;
+}
+
+
+form input[type="submit"] {
+    width: 20%;
+    background: white;
+    font-size: 135%;
+    resize: horizontal;
+    text-align: center;
+    border-style: double;
+    margin-top: 3%;
+    border-color: darkgray;
+    background: white;
+    margin: 5%;
+}
+
+form input[type="submit"]:hover {
+    width: 20%;
+    background: white;
+    font-size: 135%;
+    resize: horizontal;
+    text-align: center;
+    border-style: double;
+    margin-top: 3%;
+    border-color: darkgray;
+    background: rgb(240, 240, 240);
+    margin: 5%;
+}
+
+form input[type="submit"]:checked {
+    width: 20%;
+    background: white;
+    font-size: 135%;
+    resize: horizontal;
+    text-align: center;
+    border-style: double;
+    margin-top: 3%;
+    border-color: darkgray;
+    background: magenta;
+    margin: 5%;
+}
+
+form > p {
+    margin-top: 6%;
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+form a {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+button {
+    font-size: medium;
+}

@@ -1,0 +1,49 @@
+body {
+    color: lightgray
+}
+
+h1 {
+    color: darkmagenta;
+    text-align: center;
+}
+
+hr {
+    color: darkmagenta;
+    size: 2px;
+}
+
+body > p {
+    margin: 2%;
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+form > input {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 45%;
+    margin: 2%;
+    font-size: x-large;
+    text-align: center;
+    size: 5%;
+}
+
+form {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+form > p {
+    margin-top: 6%;
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+form > input[type="submit"] {
+    margin-top: 5%;
+    width: 15%;
+    font-size: large;
+}

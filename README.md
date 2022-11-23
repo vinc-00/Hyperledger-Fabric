@@ -80,7 +80,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - set up .env file
 - php artisan key:generate
 - php artisan storage:link
-- php artisan serve --port [HERE_TYPE_THE_PORT_NUMBER_WHERE_THE_WEB_APPLICATION_WILL_BE_STARTED]
-- Go into your browser and search: localhost:[WEB_APPLICATION_PORT_NUMBER]
+- php artisan serve --port [WEB_APPLICATION_PORT_NUMBER]
+- Go into your browser and type: localhost:[WEB_APPLICATION_PORT_NUMBER]
 
 
